@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  
+a:hover{
+      color: rgba(0, 0, 0);
+}
+
+h1{
+    font-size: 70px;
+    letter-spacing: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+#box{
+    border-style: inset;
+    border-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+#box:hover{
+    border-style: inset;
+    border-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 350px;
+}
+
+#img:hover{
+    opacity: 50%;
+}
+
+#personal{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    border-color: black;
+    box-shadow: 0px 0px 10px 10px goldenrod;
+}
+
+#ti{
+    color: goldenrod;
+}
+
